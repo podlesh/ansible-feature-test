@@ -9,6 +9,8 @@ variable and has absolutely no correlation with group
 membership (to test that gruping/slicing is possible without
 groups).
 
+
+Invocation (with `hacking/env-setup`):
 ```
 ansible-playbook  debug_msg.yml  -i dynamic_sample_random.py
 ```
