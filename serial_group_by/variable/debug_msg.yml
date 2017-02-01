@@ -1,0 +1,10 @@
+# vim:ft=ansible:
+
+- name: sample of the serial_group_by
+  gather_facts: False 
+  hosts: 'all'
+  serial: 1
+  serial_group_by: '{{host.vars["cluster"]}}'
+  tasks:
+    - debug: msg='running!'
+
