@@ -6,5 +6,5 @@
   serial: 1
   serial_group_by: '{{host.vars["cluster"]}}'
   tasks:
-    - debug: msg='running!'
+    - debug: msg='running! {{group_names}}'
 
