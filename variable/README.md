@@ -9,3 +9,11 @@ variable and has absolutely no correlation with group
 membership (to test that gruping/slicing is possible without
 groups).
 
+```
+ansible-playbook  debug_msg.yml  -i dynamic_sample_random.py
+```
+
+Also, slightly modified case with serial=2:
+```
+ansible-playbook  debug_msg.yml  -i dynamic_sample_random.py
+```

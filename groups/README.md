@@ -12,3 +12,7 @@ Two static sample inventories are provided (one with clusters of
 equal size, one with clusters of various sizes) and one static
 that generates random number of clusters (groups) of random sizes.
 
+```
+ansible-playbook  debug_msg.yml  -i dynamic_sample_random.py
+```
+
